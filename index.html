@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <title>anti.suck.tw</title>
+        <style>
+
+            html, body {background: #fff; margin: 0;}
+
+            body {
+                border-top: 0px solid #000;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+            a, a:hover {color: #fff;}
+
+            .theme-dropdown .dropdown-menu {
+                position: static;
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .navbar {background: #000; font-size: 14px}
+            .navbar-brand {position: relative; top: -15px;}
+
+            .navbar-nav_a:hover {background-color: red;}
+            .cred {margin-left: 20px; font-size: 12px; color: black;}
+            .galleria {height: 600px; margin: 20px;}
+
+        </style>
+    </head>
+<body>
+    <div class="content">
+        
+        <!-- Docs master nav -->
+    <header class="navbar navbar-static-top" id="top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a href="../" class="navbar-brand"><img border="0" width="180px" src="logo.jpg"></a>
+            </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GALLERY <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">FB</a></li>
+                        <li><a href="#">Photographer</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">VIDEO <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Record</a></li>
+                        <li><a href="#">TV Cable</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">TIMELINE <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">漢文</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto: anti.suck.tw@gmail.com">CONTACT</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+
+
+
+        <div class="galleria">
+            
+        </div>
+    <br><br>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="js/galleria-1.3.5.min.js"></script>
+    <script src="js/galleria.picasa.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+
+    Galleria.loadTheme('lib/galleria/themes/folio/galleria.folio.min.js');
+    
+    // Initialize Galleria
+    Galleria.run('.galleria', {
+        // The user & album. This example fetches the album "Demo" from the user "galleriajs"
+        picasa: 'useralbum:anti.suck.tw/Taiwan_20140324',
+        //picasa: 'useralbum:galleriajs/Demo'
+        picasaOptions: {
+        sort: 'date-posted-asc',
+        thumbSize: 'medium'
+        }
+    });
+    
+    </script>
+    </body>
+</html>
