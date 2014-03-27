@@ -1,10 +1,4 @@
-html, body {background: #000; margin: 0;}
-
-body {
-    border-top: 0px solid #000;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
+html, body {background: #111; }
 
 a, a:hover {color: #fff;}
 
@@ -14,8 +8,11 @@ a, a:hover {color: #fff;}
     margin-bottom: 20px;
 }
 
-.navbar {background-image:url('../images/header.jpg'); height: 320px;}
+#banner {background-image:url('../images/header.jpg'); height: 320px;}
 
+.navbar-inverse {background: #000;}
+
+/*
 .navbar { font-size: 14px}
 .navbar-brand {
     position: relative; top: -15px;
@@ -24,5 +21,5 @@ a, a:hover {color: #fff;}
 }
 
 .navbar-nav_a:hover {background-color: red;}
+*/
 .galleria {height: 500px; margin-top: 10px; margin-bottom: 10px; margin-left: 30px}
-
