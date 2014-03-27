@@ -14,7 +14,7 @@ a, a:hover {color: #fff;}
     margin-bottom: 20px;
 }
 
-.navbar {background-image:url('images/header.jpg'); height: 320px;}
+.navbar {background-image:url('../images/header.jpg'); height: 320px;}
 
 .navbar { font-size: 14px}
 .navbar-brand {
