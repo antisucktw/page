@@ -86,6 +86,10 @@ a, a:hover, .dropdown-menu a, .dropdown-menu a:hover {
 	color: #fff!important;
 }
 
+.navbar-header {
+    background-color: #111;
+}
+
 .dropdown {
     margin: 2px;
 }
@@ -97,6 +101,7 @@ a, a:hover, .dropdown-menu a, .dropdown-menu a:hover {
     border-bottom-width: 4px;
     border-color: #666;
     border-style: solid;
+    background-color: #111;
 }
 
 .dropdown>a:hover, .dropdown>a:focus {
@@ -134,6 +139,7 @@ a, a:hover, .dropdown-menu a, .dropdown-menu a:hover {
     border-bottom-width: 4px;
     border-color: #666;
     border-style: solid;
+    background-color: #111;
 }
 
 .navbar-right>li>a:hover, .navbar-right>li>a:focus {
