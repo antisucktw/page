@@ -46,7 +46,6 @@ body {
 }
 
 #category {
-
     color: #fff;
     padding: 10px;
     border-top-width: 2px;
@@ -55,6 +54,10 @@ body {
     border-bottom-width: 2px;
     border-color: #333;
     border-style: solid;
+}
+
+.addthis_toolbox {
+    margin-left: 20px;
 }
 
 #foot {
