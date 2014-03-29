@@ -30,7 +30,8 @@ body {
     border-style: solid;
 }
 
-#addthis_toolbox {
+.addthis_toolbox {
+    margin-top: 10px;
 	margin-left: 20px;
 }
 
