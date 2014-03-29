@@ -75,14 +75,18 @@
 
 
 
-          <br><span class="label label-default">本站尚在測試，請勿公開此網址。</span>
+         <div id="category"><img border="0" height="50px" src="images/gallery.png"><span class="label label-default">本站尚在測試，請勿公開此網址。</span></div>
 
-          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;Gallery <font color="#CCFF99">></font> Photographer <font color="#CCFF99">></font> Lam Yik Fei</div>
+          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;&nbsp;Photographer<font color="#CCFF99">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</font> <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;Zhang Ahuei 張嘉輝</div>
           <div class="galleria-1"></div>
 
-          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;Gallery <font color="#CCFF99">></font> Photographer <font color="#CCFF99">></font> David Fong</div>
+          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;&nbsp;Photographer<font color="#CCFF99">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</font> <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;David Fong</div>
           <div class="galleria-2"></div>
 
+          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;&nbsp;Photographer<font color="#CCFF99">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</font> <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;Lam Yik Fei</div>
+          <div class="galleria-3"></div>
+
+          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;&nbsp;以上照片係由創作人個別授權及 CC 授權方式於「臺灣公民運動紀實」網站刊登，本站在此致謝。</div>
 
 
 
@@ -115,9 +119,18 @@
       $(function(){
         Galleria.loadTheme('lib/galleria/themes/folio/galleria.folio.min.js');
         
-        
         Galleria.run('.galleria-1', {
-            flickr: 'set:72157643100020654',
+            flickr: 'set:72157643119125014',
+            flickrOptions: {
+                max: 100,
+                imageSize: 'medium',
+                sort: 'date-posted-asc',
+                description: false
+            }
+        }),
+        
+        Galleria.run('.galleria-2', {
+            flickr: 'set:72157643100817864',
             flickrOptions: {
                 max: 100,
                 imageSize: 'medium',
@@ -126,8 +139,8 @@
             }
         }),
 
-        Galleria.run('.galleria-2', {
-            flickr: 'set:72157643100817864',
+        Galleria.run('.galleria-3', {
+            flickr: 'set:72157643100020654',
             flickrOptions: {
                 sort: 'date-posted-asc',
                 description: false
