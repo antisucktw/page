@@ -56,6 +56,10 @@ body {
     border-style: solid;
 }
 
+#category>a:hover {
+    color: #3399FF!important;
+}
+
 
 #foot {
 	color: #fff;
