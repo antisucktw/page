@@ -1,6 +1,12 @@
-html, body {background: #000; }
+body {
+	font-family:Verdana, Arial, Helvetica;
+	background: #000;
+	background-image: url('../images/header.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: top; 
+}
 
-a, a:hover {color: #fff;}
 
 .theme-dropdown .dropdown-menu {
     position: static;
@@ -8,27 +14,122 @@ a, a:hover {color: #fff;}
     margin-bottom: 20px;
 }
 
-#banner {
-	background-image:url('../images/header.jpg');
-	height: 320px;
-	position: relative; top: -70px;
+#block {
+	height: 250px;
+	position: relative;
 }
 
-.navbar-inverse {background: #000;}
+#banner {
+	height: 52px;
+	position: relative;
+	border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 2px;
+    border-color: #333;
+    border-style: solid;
+}
 
+#fb-root {
+	margin-left: 20px;
+}
+
+#sublogo {
+	margin-left: 20px;
+}
+
+#content {
+	background: #000;
+	background-image: url('../images/bg.jpg');
+	background-repeat: repeat;
+}
+
+#foot {
+	color: #fff;
+	font-size: 14px;
+	height: 52px;
+	position: relative;
+	border-top-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #333;
+    border-style: solid;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block; 
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: #A12000;
+}
+
+a, a:hover, .dropdown-menu a, .dropdown-menu a:hover {
+	color: #fff!important;
+}
+
+.dropdown {
+    margin: 2px;
+}
+
+.dropdown>a {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 4px;
+    border-color: #666;
+    border-style: solid;
+}
+
+.dropdown>a:hover, .dropdown>a:focus {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 4px;
+    border-color: #800;
+    border-style: solid;
+}
 
 .navbar {
 	font-size: 14px;
+	height: 60px;
+	background-color: #111;
 	position: relative; top: 10px;
-    opacity:0.8;
-    filter:alpha(opacity=80);
+    opacity:0.9;
+    filter:alpha(opacity=90);
 }
+
 .navbar-brand {
     position: relative; top: -15px;
-    opacity:0.8;
-    filter:alpha(opacity=80);
+    opacity:0.9;
+    filter:alpha(opacity=90);
 }
 
-.dropdown-toggle:hover {background-color: red;}
+.navbar-right {
+    margin: 2px;
+}
 
-.galleria {height: 500px; margin-top: 10px; margin-bottom: 10px; margin-left: 30px}
+.navbar-right>li>a, .navbar-right>li>a {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 4px;
+    border-color: #666;
+    border-style: solid;
+}
+
+.navbar-right>li>a:hover, .navbar-right>li>a:focus {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 4px;
+    border-color: #800;
+    border-style: solid;
+}
+
+
+.galleria-1 {height: 500px; margin-top: 10px; margin-bottom: 10px; margin-left: 30px}
+
+.galleria-2 {height: 500px; margin-top: 10px; margin-bottom: 10px; margin-left: 30px}
+
