@@ -75,9 +75,12 @@
 
 
 
-          <br>
-          <div id="category">gallery <font color="#CCFF99">></font> photographer</div>
+          <br><span class="label label-default">本站尚在測試，請勿公開此網址。</span>
+
+          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;gallery <font color="#CCFF99">></font> photographer <font color="#CCFF99">></font> Lam Yik Fei</div>
           <div class="galleria-1"></div>
+
+          <div id="category">&nbsp;&nbsp;&nbsp;&nbsp;gallery <font color="#CCFF99">></font> photographer <font color="#CCFF99">></font> David Fong</div>
           <div class="galleria-2"></div>
 
 
@@ -87,7 +90,7 @@
           <br><br>
         </div>
         <div id="foot"><img border="0" height="50px" id="sublogo" src="images/foot.png"> 
-          &nbsp;&nbsp;&nbsp;本站旨在收錄保存公民運動之數位資料，內容來自諸位作者貢獻及授權。轉載請洽原版權擁有者。 &copy; 2014 <a href="http://anti.suck.tw">Anti.Suck.TW</a>&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;本站旨在收錄保存公民運動之數位資料，內容來自諸位作者之 CC 授權。 &copy; 2014 <a href="http://anti.suck.tw">Anti.Suck.TW</a>&nbsp;&nbsp;&nbsp;
         </div>
         <div class="addthis_toolbox addthis_default_style">
           <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -114,18 +117,20 @@
         
         
         Galleria.run('.galleria-1', {
-            flickr: 'set:72157642988346194',
+            flickr: 'set:72157643100020654',
             flickrOptions: {
+                max: 100,
+                imageSize: 'medium',
                 sort: 'date-posted-asc',
-                description: true
+                description: false
             }
         }),
 
         Galleria.run('.galleria-2', {
-            flickr: 'set:72157642988346194',
+            flickr: 'set:72157643100817864',
             flickrOptions: {
                 sort: 'date-posted-asc',
-                description: true
+                description: false
             }
         });
     });
